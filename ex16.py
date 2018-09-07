@@ -39,4 +39,6 @@ target.write("\n")
 
 print("And finally, we close it.")
 
-# target.close()
+
+# Don't know why we used this close command
+target.close()
