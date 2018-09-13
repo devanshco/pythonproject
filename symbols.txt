@@ -1,0 +1,8 @@
+print()  ==Displays Output
+variable = ==Stores any value that may change
+variable = f""
+print(f"")
+{}
+variable.format()
+\n
+"""Text Here"""
