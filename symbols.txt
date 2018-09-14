@@ -6,3 +6,25 @@ print(f"")
 variable.format()
 \n
 """Text Here"""
+"\tText Here" - String/Line that is tabbed in
+"Text Here\\More Text\\Some More Text...."
+variable = input() - Shows Input field to the user and store the value provided by the user in the variable
+f"Text Here {Variable} More text here {Variable2} Some more text here {Variable3}...." - This is how we run a Variable inside a String.
+variable = input("Text Here? ") - Shows String/Text along with the input field and stores the value provided by the user in the Variable
+from sys import argv
+script, first = argv
+mainvariable = input(prompt) - run variable "prompt" along with input field for the user and store the input inside mainvariable
+
+target = open(filename, 'w')
+target.truncate()
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+
+target.close()

@@ -14,12 +14,12 @@ input("?")
 
 # 'w' here means to open file in write mode
 print("Opening the file...")
-target = open(filename, 'w')
+ok = open(filename, 'w')
 
 print("Truncating the file. Gooddbye!")
 
 # Truncate here means to clean/format the file
-target.truncate()
+ok.truncate()
 
 print("Now I'm going to ask you for three lines.")
 
@@ -29,16 +29,16 @@ line3 = input("line 3: ")
 
 print("I'm going to write these to the file.")
 
-target.write(line1)
+ok.write(line1)
 # "\n" means to move to the next line
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+ok.write("\n")
+ok.write(line2)
+ok.write("\n")
+ok.write(line3)
+ok.write("\n")
 
 print("And finally, we close it.")
 
 
 # Don't know why we used this close command
-target.close()
+ok.close()
