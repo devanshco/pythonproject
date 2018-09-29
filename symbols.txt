@@ -28,3 +28,5 @@ target.write("\n")
 target.write(line3)
 
 target.close()
+from os.path import exists
+def
